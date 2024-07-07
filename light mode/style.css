@@ -1,7 +1,8 @@
 .body{
-    background-color: black;
+    background-color: white;
     font-family: "Poiret One", sans-serif;
-    color: white;
+    color: black;
+    font-weight: 500 !important;
 } 
 .p{
     font-family: "Jost", sans-serif;
@@ -9,7 +10,7 @@
 }
 .container1{
     display: flex;
-    gap:250px;
+    gap: 250px;
     justify-content: center;
 }
 .items{
@@ -18,10 +19,11 @@
 .button{
     text-align: center;
     border: 2px solid yellowgreen;
-    color: yellowgreen;
-    background-color: black;
+    color: black;
+    /* background-color: black; */
     margin: 30px -50px 0px 0px ;
     padding: 15px 40px;
+    /* background; */
 
 }
 /* .logo{
@@ -29,7 +31,7 @@
 } */
 .button:hover{
     background-color: yellowgreen;
-    color: white;
+    color:black;
     border:2px solid white;
 }
 .container02{
@@ -41,7 +43,7 @@
     display: flex;
     /* gap: 60px; */
     list-style-type: none;
-    color: whitesmoke;
+    color:black;
     /* margin: 0px 10px; */
 }
 .home-li1:hover{
@@ -81,7 +83,7 @@
 }
 .bgi-font{
     font-family: "Poiret One", sans-serif;
-    color: white;
+    color:black;
     text-align: center;
     font-size: 50px;
     margin: 190px 700px 0px 20px;
@@ -102,7 +104,7 @@
     border: 2px solid #E5BF4A;
 }
 .container4{
-    color: #DFDFDF;
+    color:black;
     margin: 100px 320px ;
     font-family: "Poiret One", sans-serif;
     display: block;
@@ -138,7 +140,11 @@
     /* height: 1000px;
     width: 2000px; */
     margin: 40px 0px;
-
+    border: 2px solid black;
+    border-right: none;
+    border-left: none;
+    border-bottom: none;
+    /* border-top: none; */
 }
 .grid-item2{
     /* height: 300px;
@@ -163,18 +169,27 @@
     display: flex;
     margin: 110px 0px;
     gap: 168px;
+    font-weight: 900 !important;
+    /* border: 2px solid black;
+    border-right: none;
+    border-left: none;
+    border-top: none; */
+
  }
  .flex-1{
     margin-left: 120px ;
  }
  .flex-1p{
     font-size: 23px;
-    color: #fff;
+    color:black;
     font-weight:500;
     line-height: 0.5;
  }
  .container7{
     margin: 100px 0px 0px 0px;
+    border: 2px solid black;
+    border-right: none;
+    border-left: none;s
  }
  .bg-img2{
     background-image: url(https://preview.colorlib.com/theme/cakeshop/assets/img/gallery/video-bg.jpg.webp);
@@ -206,7 +221,7 @@
     margin: 20px 100px;
  }  
  .grid-1{
-    border: 2px solid rgba(255, 255, 255, 0.2);
+    border: 1px solid black;
     height: 300px;
     width: 302px;
     margin: 20px 0px 20px 40px;
@@ -214,11 +229,11 @@
     gap: 0px;
     border-right: none;
     border-left: none;
-    color:whitesmoke;
+    color:black;
     line-height: 1.7;
  }
   .grid-2{
-    border: 2px solid rgba(255, 255, 255, 0.2);
+    border: 1px solid black;
     height: 300px;
     width: 300px;
     margin: 20px 0px 20px 0px;
@@ -228,7 +243,7 @@
 
  }
  .grid-3{
-    border: 2px solid rgba(255, 255, 255, 0.2);
+    border: 1px solid black;
     height: 300px;
     width: 302px;
     margin: 20px 0px ;
@@ -259,12 +274,14 @@
     width: 330px;
     height: 370px;
     overflow: hidden;
+    font-weight: 900 !important;
  }
  .container11{
     display: grid;
     grid-template-columns: auto auto auto auto;
     grid-template-rows: auto;
     margin: 70px 0px;
+    
  }
  .grid-6{
     margin: 20px 4px ;
@@ -277,6 +294,7 @@
     height: 100% !important;
 }
 .container13{
+    
     display: flex;
     gap: 330px;
 }
@@ -284,7 +302,7 @@
     display: flex;
     gap: 40px;
     list-style-type: none;
-    color: whitesmoke;
+    color:black;
     padding: 0px 10px 0px 135px;
 
 }
@@ -292,7 +310,7 @@
     display: grid;
     grid-template-columns: auto auto auto;
     grid-template-rows: auto;
-    border: 2px solid rgba(255, 255, 255, 0.2);
+    border: 2px solid black;
     border-right: none;
     border-left: none;
     width: 1090px;
